@@ -20,5 +20,7 @@ ls -la
 
 # chmod 644
 
+# stat mi_archivo_3 Muesgta la informacion detallada y metadatos de un archivo o sistema de archivos
+
 
 
