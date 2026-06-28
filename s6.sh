@@ -12,6 +12,19 @@ sudo apt install iputils-ping
 ctrl + c
 # env ( lista de todas las varibales de entorno del sistema operativo)
 env
-
+# echo "Hola" > test.txt (Crea un Hola en un archivo llamado text.txt)
+echo "Hola" > test.txt
+# echo "Chao" > test.txt ( Me sobreescribe el archivo)
+echo "Chao" > test.txt
+# echo "Hola" >> test.txt (Aumenta el texto)
+echo "Hola" >> test.txt
+# date +%M-%d-%Y (me da la fecha en milisegundos)
+date +%M-%d-%Y
+# date +%m-%d-%Y (da la fecha exacta)
+date +%m-%d-%Y
+# bash exercise_solution.sh (ejecutmos el script sin argumentos)
+bash exercise_solution.sh 
+# bash exercise_solution.sh Eddy Madrid (Ejecutamos con argumentos)
+bash exercise_solution.sh Eddy Madrid
 
 
