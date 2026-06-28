@@ -16,3 +16,11 @@ grep -i
 ps | grep TTY
 # ps | grep -i tty (el mismo proceso)
 ps | grep -i tty
+# grep -v 35.237.4.214 log.txt ( me muestra todo menos lo que le especificamos)
+grep -v 35.237.4.214 log.txt
+# grep -o 35.237.4.214 log.txt (solo el patron)
+grep -o 35.237.4.214 log.txt
+# awk
+awk
+
+
