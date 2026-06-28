@@ -10,4 +10,5 @@ calculadora.py
 sudo apt update
 #sudo apt upgrade(para actualizar los programas instalados)
 sudo apt upgrade
-
+# sudo apt install nmap (Sirve para escanear redes)
+sudo apt install nmap
