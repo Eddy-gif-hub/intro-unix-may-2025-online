@@ -40,3 +40,8 @@ bash -x if_elif.sh "Hpla mundo"
 set -x
   echo "${USER_INPUT} is not a file or a directory."
   set +x
+# echo "${EUID}" (numero de usuario)
+echo "${EUID}"
+# bash check_root_function.sh (Funcion que demuestra que estoy en root)
+bash check_root_function.sh 
+
