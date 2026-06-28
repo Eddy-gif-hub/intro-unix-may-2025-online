@@ -22,10 +22,12 @@ cd
 cd /
 #file (sirve para saber que tipo de archivo es un documento)
 file
-# cd bin ( me acreca al archivo binario)
-cd bin
+# cd /bin ( me acreca al directorio de  binarios)
+cd/bin
 # cp (copia)
 cp
 # sudo (da permisos para ejecutar acciones en bin porqeu el super usuario)
 sudo
+# sudo Ruta relativa 
+sudo cp/workspace/intro-unix-may-2025-online/hola_binario
 
