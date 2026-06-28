@@ -26,7 +26,16 @@ awk lod.txt
 awk '{print $1}' log.txt
 # awk '{print $1,$2}' log.txt (dos columnas me muestra)
  awk '{print $1,$2}' log.txt
-
-
+# awk '{print $1,$NF}' log.txt ( la primera y la ultima columna)
+awk '{print $1,$NF}' log.txt
+touch
+# echo "hola1, hola2" >> text.csv (redireccianmiento para no sobreescribir)
+echo "hola1, hola2" >> text.csv
+# head log.txt (las 10 primeras lineas del archivo)
+head log.txt
+# tail log.txt (las 10 ultimas lineas del archivo)
+tail log.txt 
+# awk 'NR <= 10' log.txt (las 10 primeas lienas con awk)
+awk 'NR <= 10' log.txt 
 
 
