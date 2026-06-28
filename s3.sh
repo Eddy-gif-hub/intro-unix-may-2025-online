@@ -24,10 +24,10 @@ touch
 cd/workspaces/intro-unix-may-2025-online/padre
 # cd ruta relativa
 cd padre
-# cd /
-
-# cd ls
-
+# cd / me envia directamente a root el directoria raiz.
+cd/
+# cd ls me permite listar 
+cd ls 
 # cd workspaces/
 
 # es case sensitive por las mayusculas y minusculas pero tengo entendido que solo se usa misnusculas
@@ -41,17 +41,17 @@ cd
 # cd ~ (te lleva igual al directorio raiz o HOME)
 cd ~
 # rmdir (elimina solo directorios)
-
+rmdir
 # rm ( elimina archivos a lado el nombre del archivo)
-
-# cp (copiar)
-
+rm
+# cp (copia archivos)
+cp
 # mv (renombra el archivo)
-
-# cp -r padre destino/
-
-#mv destino/padre/HIJO .
-
-#ls dev/(dispositivos)
-
+mv
+# cp -r padre destino/ ( Es donde se va a copiar todo de un archivo)
+cp -r
+#mv destino/padre/HIJO .(Es a donde se va a mover el archivo)
+mv
+#ls dev/(dispositivos) puedo listar tambien cuando tengo la ruta absoluta.
+ls 
 
