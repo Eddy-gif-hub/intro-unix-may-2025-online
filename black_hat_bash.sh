@@ -20,7 +20,13 @@ ps | grep -i tty
 grep -v 35.237.4.214 log.txt
 # grep -o 35.237.4.214 log.txt (solo el patron)
 grep -o 35.237.4.214 log.txt
-# awk
-awk
+# awk log.txt (mustra la primera columna)
+awk lod.txt
+# awk '{print $1}' log.txt (me devuelve la primera columna)
+awk '{print $1}' log.txt
+# awk '{print $1,$2}' log.txt (dos columnas me muestra)
+ awk '{print $1,$2}' log.txt
+
+
 
 
