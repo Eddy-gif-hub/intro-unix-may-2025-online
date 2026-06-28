@@ -26,5 +26,17 @@ date +%m-%d-%Y
 bash exercise_solution.sh 
 # bash exercise_solution.sh Eddy Madrid (Ejecutamos con argumentos)
 bash exercise_solution.sh Eddy Madrid
-
-
+# bash if_elif.sh (ejecutamos el script)
+bash if_elif.sh 
+# echo "$?" (para saber el comando de salida)
+echo "$?"
+# bash if_elif.sh hola.c (me lee el archivo)
+bash if_elif.sh hola.c
+# bash if_elif.sh padre(me lee el directorio)
+bash if_elif.sh padre
+# bash -x if_elif.sh "Hpla mundo" (Me muestra el camino por donde va el texto)
+bash -x if_elif.sh "Hpla mundo"
+# Me muestra lo que esta entre -x y +x
+set -x
+  echo "${USER_INPUT} is not a file or a directory."
+  set +x
